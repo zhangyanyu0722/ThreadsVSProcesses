@@ -76,7 +76,7 @@ plot 'thread_cpu_bound.dat' using 1:4 title 'IoThread', \
 
 - Exit the gnuplot envs and will see the .png file
 <p align="middle">
-  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/blob/master/Picture/thread_cpu_bound.tmp.png" width= 500>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/blob/master/thread_cpu_bound.tmp.png" width= 500>
 </p>
 
 ### Conclusions from the picture above :
