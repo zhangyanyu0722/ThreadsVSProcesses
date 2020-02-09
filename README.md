@@ -17,12 +17,12 @@ brew install gnuplot
 python ThreadsVSProcesses.py CPU_Num
 ```
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/video-zhangyanyu0722/blob/master/ThreadsVSProcesses/Picture/1.png" width= 500>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/tree/master/Picture/1.png" width= 500>
 </p>
 
 - Then saved the data in a file named "thread_cpu_bound.dat"
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/video-zhangyanyu0722/blob/master/ThreadsVSProcesses/Picture/2.png" width= 200>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/tree/master/Picture/2.png" width= 200>
 </p>
 
 - Enter the gnuplot in terminal to enter the envs
@@ -30,7 +30,7 @@ python ThreadsVSProcesses.py CPU_Num
 gnuplot
 ```
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/video-zhangyanyu0722/blob/master/ThreadsVSProcesses/Picture/3.png" width= 500>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/tree/master/Picture/3.png" width= 500>
 </p>
 
 - Run "thread_cpu_bound.gnuplot" in the terminal
@@ -68,15 +68,15 @@ plot 'thread_cpu_bound.dat' using 1:4 title 'IoThread', \
      'thread_cpu_bound.dat' using 1:5 title 'IoProcess'
 ```
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/video-zhangyanyu0722/blob/master/ThreadsVSProcesses/Picture/4.png" width= 500>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/tree/master/Picture/4.png" width= 500>
 </p>
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/video-zhangyanyu0722/blob/master/ThreadsVSProcesses/Picture/5.png" width= 500>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/tree/master/Picture/5.png" width= 500>
 </p>
 
 - Exit the gnuplot envs and will see the .png file
 <p align="middle">
-  <img src= "https://github.com/BUEC500C1/video-zhangyanyu0722/blob/master/ThreadsVSProcesses/thread_cpu_bound.tmp.png" width= 500>
+  <img src= "https://github.com/zhangyanyu0722/ThreadsVSProcesses/tree/master/Picture/thread_cpu_bound.tmp.png" width= 500>
 </p>
 
 ### Conclusions from the picture above :
